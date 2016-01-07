@@ -6,8 +6,13 @@
 //  Copyright © 2016 GabrielMassana. All rights reserved.
 //
 
+
 #import <Foundation/Foundation.h>
 
+/**
+ source https://gist.github.com/dezinezync/6622593
+ source http://stackoverflow.com/a/22956420/1381708
+ */
 @interface NSString (EMOEmoji)
 
  /**
