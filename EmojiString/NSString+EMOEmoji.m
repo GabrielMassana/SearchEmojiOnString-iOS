@@ -44,7 +44,8 @@
          {
              const unichar ls = [substring characterAtIndex:1];
              if (ls == 0x20e3 ||
-                 ls == 0xfe0f)
+                 ls == 0xfe0f ||
+                 ls == 0xd83c)
              {
                  [emojiRangesArray addObject:[NSValue valueWithRange:substringRange]];
              }
@@ -123,7 +124,8 @@
          {
              const unichar ls = [substring characterAtIndex:1];
              if (ls == 0x20e3 ||
-                 ls == 0xfe0f)
+                 ls == 0xfe0f ||
+                 ls == 0xd83c)
              {
                  containsEmoji = YES;
              }
@@ -202,7 +204,8 @@
          {
              const unichar ls = [substring characterAtIndex:1];
              if (ls == 0x20e3 ||
-                 ls == 0xfe0f)
+                 ls == 0xfe0f ||
+                 ls == 0xd83c)
              {
                  emojiCount = emojiCount + 1;
              }
