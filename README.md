@@ -6,6 +6,7 @@
 [![CocoaPods](https://img.shields.io/cocoapods/metrics/doc-percent/SearchEmojiOnString.svg?style=flat-square)](http://cocoapods.org/pods/SearchEmojiOnString)
 
 ##   What is it?
+
 Category to search emojis on an NSString. 
 
 The category allows to check if has emojis, the number of emojis and the range of the emojis.
@@ -46,7 +47,7 @@ Drag into your project the folder `/SearchEmojiOnString-iOS`. That's all.
 
 ## License
 
-ButtonBackgroundColor-iOS is released under the MIT license. Please see the file called LICENSE.
+SearchEmojiOnString-iOS is released under the MIT license. Please see the file called LICENSE.
 
 ## Versions
 
