@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AC978CB1C52D45C00990846 /* EMOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC978C81C52D45C00990846 /* EMOAppDelegate.m */; };
+		7AC978CC1C52D45C00990846 /* EMOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC978CA1C52D45C00990846 /* EMOViewController.m */; };
+		7AC978D01C52D46200990846 /* NSString+EMOEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC978CF1C52D46200990846 /* NSString+EMOEmoji.m */; };
 		C048F0801C3EB734007B5A81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C048F07F1C3EB734007B5A81 /* main.m */; };
-		C048F0831C3EB734007B5A81 /* EMOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C048F0821C3EB734007B5A81 /* EMOAppDelegate.m */; };
-		C048F0861C3EB734007B5A81 /* EMOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C048F0851C3EB734007B5A81 /* EMOViewController.m */; };
 		C048F0891C3EB734007B5A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C048F0871C3EB734007B5A81 /* Main.storyboard */; };
 		C048F08B1C3EB734007B5A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C048F08A1C3EB734007B5A81 /* Assets.xcassets */; };
 		C048F08E1C3EB734007B5A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C048F08C1C3EB734007B5A81 /* LaunchScreen.storyboard */; };
-		C048F0971C3EB78C007B5A81 /* NSString+EMOEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = C048F0961C3EB78C007B5A81 /* NSString+EMOEmoji.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7AC978C71C52D45C00990846 /* EMOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMOAppDelegate.h; sourceTree = "<group>"; };
+		7AC978C81C52D45C00990846 /* EMOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMOAppDelegate.m; sourceTree = "<group>"; };
+		7AC978C91C52D45C00990846 /* EMOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMOViewController.h; sourceTree = "<group>"; };
+		7AC978CA1C52D45C00990846 /* EMOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMOViewController.m; sourceTree = "<group>"; };
+		7AC978CE1C52D46200990846 /* NSString+EMOEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EMOEmoji.h"; sourceTree = "<group>"; };
+		7AC978CF1C52D46200990846 /* NSString+EMOEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EMOEmoji.m"; sourceTree = "<group>"; };
 		C048F07B1C3EB734007B5A81 /* EmojiString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C048F07F1C3EB734007B5A81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C048F0811C3EB734007B5A81 /* EMOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMOAppDelegate.h; sourceTree = "<group>"; };
-		C048F0821C3EB734007B5A81 /* EMOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMOAppDelegate.m; sourceTree = "<group>"; };
-		C048F0841C3EB734007B5A81 /* EMOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMOViewController.h; sourceTree = "<group>"; };
-		C048F0851C3EB734007B5A81 /* EMOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMOViewController.m; sourceTree = "<group>"; };
 		C048F0881C3EB734007B5A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C048F08A1C3EB734007B5A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C048F08D1C3EB734007B5A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C048F08F1C3EB734007B5A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C048F0951C3EB78C007B5A81 /* NSString+EMOEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+EMOEmoji.h"; sourceTree = "<group>"; };
-		C048F0961C3EB78C007B5A81 /* NSString+EMOEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+EMOEmoji.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AC978C61C52D45C00990846 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				7AC978C71C52D45C00990846 /* EMOAppDelegate.h */,
+				7AC978C81C52D45C00990846 /* EMOAppDelegate.m */,
+				7AC978C91C52D45C00990846 /* EMOViewController.h */,
+				7AC978CA1C52D45C00990846 /* EMOViewController.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		7AC978CD1C52D46200990846 /* SearchEmojiOnString-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7AC978CE1C52D46200990846 /* NSString+EMOEmoji.h */,
+				7AC978CF1C52D46200990846 /* NSString+EMOEmoji.m */,
+			);
+			path = "SearchEmojiOnString-iOS";
+			sourceTree = SOURCE_ROOT;
+		};
 		C048F0721C3EB734007B5A81 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +81,8 @@
 		C048F07D1C3EB734007B5A81 /* EmojiString */ = {
 			isa = PBXGroup;
 			children = (
-				C048F0811C3EB734007B5A81 /* EMOAppDelegate.h */,
-				C048F0821C3EB734007B5A81 /* EMOAppDelegate.m */,
-				C048F0841C3EB734007B5A81 /* EMOViewController.h */,
-				C048F0851C3EB734007B5A81 /* EMOViewController.m */,
-				C048F0951C3EB78C007B5A81 /* NSString+EMOEmoji.h */,
-				C048F0961C3EB78C007B5A81 /* NSString+EMOEmoji.m */,
+				7AC978CD1C52D46200990846 /* SearchEmojiOnString-iOS */,
+				7AC978C61C52D45C00990846 /* Example */,
 				C048F0871C3EB734007B5A81 /* Main.storyboard */,
 				C048F08A1C3EB734007B5A81 /* Assets.xcassets */,
 				C048F08C1C3EB734007B5A81 /* LaunchScreen.storyboard */,
@@ -154,10 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C048F0861C3EB734007B5A81 /* EMOViewController.m in Sources */,
-				C048F0831C3EB734007B5A81 /* EMOAppDelegate.m in Sources */,
-				C048F0971C3EB78C007B5A81 /* NSString+EMOEmoji.m in Sources */,
+				7AC978CB1C52D45C00990846 /* EMOAppDelegate.m in Sources */,
 				C048F0801C3EB734007B5A81 /* main.m in Sources */,
+				7AC978D01C52D46200990846 /* NSString+EMOEmoji.m in Sources */,
+				7AC978CC1C52D45C00990846 /* EMOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +320,7 @@
 				C048F0941C3EB734007B5A81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
