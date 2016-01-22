@@ -5,13 +5,15 @@
 //  Created by GabrielMassana on 07/01/2016.
 //  Copyright © 2016 GabrielMassana. All rights reserved.
 //
-
-
+//  source https://gist.github.com/dezinezync/6622593
+//  source http://stackoverflow.com/a/22956420/1381708
+//
 #import <Foundation/Foundation.h>
 
 /**
- source https://gist.github.com/dezinezync/6622593
- source http://stackoverflow.com/a/22956420/1381708
+ Category to search emojis on an NSString.
+ 
+ The category allows to check if has emojis, the number of emojis and the range of the emojis.
  */
 @interface NSString (EMOEmoji)
 
