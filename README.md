@@ -32,12 +32,16 @@ Drag into your project the folder `/SearchEmojiOnString-iOS`. That's all.
 ## Example
 
 ```objc
-#import "+.h"
+#import "NSString+EMOEmoji.h"
 
 ...
 
+	NSString *ios91New = @"🤐🤑🤒🤓🤔🤕🤖🤗🤘🦀🦁🦂🦃🦄🧀☂️✝️✡️☯️";
 
-}
+    BOOL containsEmoji = [ios91New emo_containsEmoji];
+    NSInteger emojiCount = [ios91New emo_emojiCount];
+    NSArray *emojiRanges = [ios91New emo_emojiRanges];
+    
 ```
 
 ## License
