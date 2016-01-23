@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A7AA2641C537EE10046BC16 /* EmojiStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7AA2631C537EE10046BC16 /* EmojiStringTests.m */; };
 		7AC978CB1C52D45C00990846 /* EMOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC978C81C52D45C00990846 /* EMOAppDelegate.m */; };
 		7AC978CC1C52D45C00990846 /* EMOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC978CA1C52D45C00990846 /* EMOViewController.m */; };
 		7AC978D01C52D46200990846 /* NSString+EMOEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC978CF1C52D46200990846 /* NSString+EMOEmoji.m */; };
@@ -16,7 +17,20 @@
 		C048F08E1C3EB734007B5A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C048F08C1C3EB734007B5A81 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7A7AA2661C537EE10046BC16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C048F0731C3EB734007B5A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C048F07A1C3EB734007B5A81;
+			remoteInfo = EmojiString;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7A7AA2611C537EE10046BC16 /* EmojiStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojiStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7AA2631C537EE10046BC16 /* EmojiStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmojiStringTests.m; sourceTree = "<group>"; };
+		7A7AA2651C537EE10046BC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AC978C71C52D45C00990846 /* EMOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMOAppDelegate.h; sourceTree = "<group>"; };
 		7AC978C81C52D45C00990846 /* EMOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMOAppDelegate.m; sourceTree = "<group>"; };
 		7AC978C91C52D45C00990846 /* EMOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMOViewController.h; sourceTree = "<group>"; };
@@ -32,6 +46,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7A7AA25E1C537EE10046BC16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C048F0781C3EB734007B5A81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A7AA2621C537EE10046BC16 /* EmojiStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A7AA2631C537EE10046BC16 /* EmojiStringTests.m */,
+				7A7AA2651C537EE10046BC16 /* Info.plist */,
+			);
+			path = EmojiStringTests;
+			sourceTree = "<group>";
+		};
 		7AC978C61C52D45C00990846 /* Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				C048F07D1C3EB734007B5A81 /* EmojiString */,
+				7A7AA2621C537EE10046BC16 /* EmojiStringTests */,
 				C048F07C1C3EB734007B5A81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				C048F07B1C3EB734007B5A81 /* EmojiString.app */,
+				7A7AA2611C537EE10046BC16 /* EmojiStringTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +135,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7A7AA2601C537EE10046BC16 /* EmojiStringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7AA2681C537EE10046BC16 /* Build configuration list for PBXNativeTarget "EmojiStringTests" */;
+			buildPhases = (
+				7A7AA25D1C537EE10046BC16 /* Sources */,
+				7A7AA25E1C537EE10046BC16 /* Frameworks */,
+				7A7AA25F1C537EE10046BC16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A7AA2671C537EE10046BC16 /* PBXTargetDependency */,
+			);
+			name = EmojiStringTests;
+			productName = EmojiStringTests;
+			productReference = 7A7AA2611C537EE10046BC16 /* EmojiStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C048F07A1C3EB734007B5A81 /* EmojiString */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C048F0921C3EB734007B5A81 /* Build configuration list for PBXNativeTarget "EmojiString" */;
@@ -129,6 +179,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = GabrielMassana;
 				TargetAttributes = {
+					7A7AA2601C537EE10046BC16 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C048F07A1C3EB734007B5A81;
+					};
 					C048F07A1C3EB734007B5A81 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
@@ -148,11 +202,19 @@
 			projectRoot = "";
 			targets = (
 				C048F07A1C3EB734007B5A81 /* EmojiString */,
+				7A7AA2601C537EE10046BC16 /* EmojiStringTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7A7AA25F1C537EE10046BC16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C048F0791C3EB734007B5A81 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,6 +228,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7A7AA25D1C537EE10046BC16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A7AA2641C537EE10046BC16 /* EmojiStringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C048F0771C3EB734007B5A81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,6 +248,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A7AA2671C537EE10046BC16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C048F07A1C3EB734007B5A81 /* EmojiString */;
+			targetProxy = 7A7AA2661C537EE10046BC16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C048F0871C3EB734007B5A81 /* Main.storyboard */ = {
@@ -199,6 +277,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7A7AA2691C537EE10046BC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = EmojiStringTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Massana.EmojiStringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiString.app/EmojiString";
+			};
+			name = Debug;
+		};
+		7A7AA26A1C537EE10046BC16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = EmojiStringTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Massana.EmojiStringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmojiString.app/EmojiString";
+			};
+			name = Release;
+		};
 		C048F0901C3EB734007B5A81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -283,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = EmojiString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Massana.EmojiString";
@@ -294,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = EmojiString/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Gabriel-Massana.EmojiString";
@@ -304,6 +412,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7A7AA2681C537EE10046BC16 /* Build configuration list for PBXNativeTarget "EmojiStringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A7AA2691C537EE10046BC16 /* Debug */,
+				7A7AA26A1C537EE10046BC16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C048F0761C3EB734007B5A81 /* Build configuration list for PBXProject "EmojiString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
