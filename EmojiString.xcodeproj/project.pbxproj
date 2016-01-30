@@ -14,7 +14,6 @@
 		C048F0801C3EB734007B5A81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C048F07F1C3EB734007B5A81 /* main.m */; };
 		C048F0891C3EB734007B5A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C048F0871C3EB734007B5A81 /* Main.storyboard */; };
 		C048F08B1C3EB734007B5A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C048F08A1C3EB734007B5A81 /* Assets.xcassets */; };
-		C048F08E1C3EB734007B5A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C048F08C1C3EB734007B5A81 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		C048F07F1C3EB734007B5A81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C048F0881C3EB734007B5A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C048F08A1C3EB734007B5A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C048F08D1C3EB734007B5A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C048F08F1C3EB734007B5A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +115,6 @@
 				7AC978C61C52D45C00990846 /* Example */,
 				C048F0871C3EB734007B5A81 /* Main.storyboard */,
 				C048F08A1C3EB734007B5A81 /* Assets.xcassets */,
-				C048F08C1C3EB734007B5A81 /* LaunchScreen.storyboard */,
 				C048F08F1C3EB734007B5A81 /* Info.plist */,
 				C048F07E1C3EB734007B5A81 /* Supporting Files */,
 			);
@@ -219,7 +216,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C048F08E1C3EB734007B5A81 /* LaunchScreen.storyboard in Resources */,
 				C048F08B1C3EB734007B5A81 /* Assets.xcassets in Resources */,
 				C048F0891C3EB734007B5A81 /* Main.storyboard in Resources */,
 			);
@@ -264,14 +260,6 @@
 				C048F0881C3EB734007B5A81 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C048F08C1C3EB734007B5A81 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C048F08D1C3EB734007B5A81 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
