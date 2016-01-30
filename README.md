@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/SearchEmojiOnString.svg?style=flat-square)](http://cocoapods.org/pods/SearchEmojiOnString)
 [![Platform](https://img.shields.io/cocoapods/p/SearchEmojiOnString.svg?style=flat-square)](http://cocoapods.org/pods/SearchEmojiOnString)
 [![CocoaPods](https://img.shields.io/cocoapods/metrics/doc-percent/SearchEmojiOnString.svg?style=flat-square)](http://cocoapods.org/pods/SearchEmojiOnString)
-[![Build Status](https://travis-ci.org/GabrielMassana/SearchEmojiOnString-iOS.png?branch=master?style=flat-square)](https://travis-ci.org/GabrielMassana/SearchEmojiOnString-iOS)
+[![Build Status](https://travis-ci.org/GabrielMassana/SearchEmojiOnString-iOS.svg?style=flat-square)](https://travis-ci.org/GabrielMassana/SearchEmojiOnString-iOS)
 
 ##   What is it?
 
