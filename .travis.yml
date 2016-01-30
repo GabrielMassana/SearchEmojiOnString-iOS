@@ -8,4 +8,4 @@ script:
 xcode_scheme: EmojiStringTests
 
 script: 
-   xctool -project EmojiString.xcodeproj -scheme EmojiStringTests build test -sdk iphonesimulator
+   xctool -project EmojiString.xcodeproj -scheme EmojiStringTests test -sdk iphonesimulator
