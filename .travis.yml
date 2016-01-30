@@ -4,3 +4,8 @@ xcode_scheme: EmojiString
 
 script: 
    xctool -project EmojiString.xcodeproj -scheme EmojiString build test -sdk iphonesimulator
+
+xcode_scheme: EmojiStringTests
+
+script: 
+   xctool -project EmojiString.xcodeproj -scheme EmojiStringTests build test -sdk iphonesimulator
