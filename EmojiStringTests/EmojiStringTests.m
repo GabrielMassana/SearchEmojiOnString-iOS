@@ -71,7 +71,6 @@
     NSAssert(ios91New == YES, @"fail_test_emo_containsEmoji");
 }
 
-
 #pragma mark - emojiRanges
 
 - (void)test_emo_emojiRanges_ios91
