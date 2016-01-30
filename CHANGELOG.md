@@ -1,3 +1,9 @@
-1.0.3
+#CHANGELOG
 
-Added some Tests
+##1.0.0
+
+First Release
+
+##1.0.4
+
+Added XTests
