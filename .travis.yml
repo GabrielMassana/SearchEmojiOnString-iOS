@@ -1,9 +1,6 @@
 language: objective-c
 xcode_project: EmojiString.xcodeproj
-xcode_scheme: EmojiString
 
-script: 
-   xctool -project EmojiString.xcodeproj -scheme EmojiString build test -sdk iphonesimulator
 
 xcode_scheme: EmojiStringTests
 
