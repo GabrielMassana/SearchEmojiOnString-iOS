@@ -47,28 +47,28 @@
 {
     BOOL ios91 = [self.ios91 emo_containsEmoji];
     
-    NSAssert(ios91 == YES, @"fail_test_emo_containsEmoji");
+    XCTAssert(ios91 == YES, @"fail_test_emo_containsEmoji");
 }
 
 - (void)test_emo_containsEmoji_abc
 {
     BOOL abc = [self.abc emo_containsEmoji];
     
-    NSAssert(abc == NO, @"fail_test_emo_containsEmoji");
+    XCTAssert(abc == NO, @"fail_test_emo_containsEmoji");
 }
 
 - (void)test_emo_containsEmoji_weird
 {
     BOOL weird = [self.weird emo_containsEmoji];
     
-    NSAssert(weird == YES, @"fail_test_emo_containsEmoji");
+    XCTAssert(weird == YES, @"fail_test_emo_containsEmoji");
 }
 
 - (void)test_emo_containsEmoji_ios91New
 {
     BOOL ios91New = [self.ios91New emo_containsEmoji];
 
-    NSAssert(ios91New == YES, @"fail_test_emo_containsEmoji");
+    XCTAssert(ios91New == YES, @"fail_test_emo_containsEmoji");
 }
 
 #pragma mark - emojiRanges
@@ -77,28 +77,28 @@
 {
     NSArray *ios91 = [self.ios91 emo_emojiRanges];
     
-    NSAssert(ios91.count > 0, @"fail_test_emo_emojiRanges");
+    XCTAssert(ios91.count > 0, @"fail_test_emo_emojiRanges");
 }
 
 - (void)test_emo_emojiRanges_abc
 {
     NSArray *abc = [self.abc emo_emojiRanges];
 
-    NSAssert(abc.count == 0, @"fail_test_emo_emojiRanges");
+    XCTAssert(abc.count == 0, @"fail_test_emo_emojiRanges");
 }
 
 - (void)test_emo_emojiRanges_weird
 {
     NSArray *weird = [self.weird emo_emojiRanges];
 
-    NSAssert(weird.count == 18, @"fail_test_emo_emojiRanges");
+    XCTAssert(weird.count == 18, @"fail_test_emo_emojiRanges");
 }
 
 - (void)test_emo_emojiRanges_ios91New
 {
     NSArray *ios91New = [self.ios91New emo_emojiRanges];
 
-    NSAssert(ios91New.count == 19, @"fail_test_emo_emojiRanges");
+    XCTAssert(ios91New.count == 19, @"fail_test_emo_emojiRanges");
 }
 
 #pragma mark - emojiCount
@@ -107,28 +107,28 @@
 {
     NSInteger ios91 = [self.ios91 emo_emojiCount];
     
-    NSAssert(ios91 > 0, @"fail_test_emo_emojiCount");
+    XCTAssert(ios91 > 0, @"fail_test_emo_emojiCount");
 }
 
 - (void)test_emo_emojiCount_abc
 {
     NSInteger abc = [self.abc emo_emojiCount];
 
-    NSAssert(abc == 0, @"fail_test_emo_emojiCount");
+    XCTAssert(abc == 0, @"fail_test_emo_emojiCount");
 }
 
 - (void)test_emo_emojiCount_weird
 {
     NSInteger weird = [self.weird emo_emojiCount];
 
-    NSAssert(weird == 18, @"fail_test_emo_emojiCount");
+    XCTAssert(weird == 18, @"fail_test_emo_emojiCount");
 }
 
 - (void)test_emo_emojiCount_ios91New
 {
     NSInteger ios91New = [self.ios91New emo_emojiCount];
 
-    NSAssert(ios91New == 19, @"fail_test_emo_emojiCount");
+    XCTAssert(ios91New == 19, @"fail_test_emo_emojiCount");
 }
 
 @end
