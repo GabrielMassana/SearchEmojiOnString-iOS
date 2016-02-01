@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SearchEmojiOnString"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "Category to search emojis on an NSString. The category allows to check if has emojis, the number of emojis and the range of the emojis."
 
   s.homepage     = "https://github.com/GabrielMassana"
