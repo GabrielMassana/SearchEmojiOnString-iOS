@@ -33,17 +33,56 @@ Drag into your project the folder `/SearchEmojiOnString-iOS`. That's all.
 
 ## Example
 
+#### ContainsEmoji
+
+YES if the String contains emojis, NO otherwise.
+
 ```objc
 #import "NSString+EMOEmoji.h"
 
 ...
 
-	NSString *ios91New = @"🤐🤑🤒🤓🤔🤕🤖🤗🤘🦀🦁🦂🦃🦄🧀☂️✝️✡️☯️";
+    NSString *emojis = @"🤐🤑🤒🤓🤔🤕🤖🤗🤘🦀🦁🦂🦃🦄🧀☂️✝️✡️☯️";
+    BOOL containsEmoji = [emojis emo_containsEmoji];
+    NSLog(@"%@", @(containsEmoji));
 
-    BOOL containsEmoji = [ios91New emo_containsEmoji];
-    NSInteger emojiCount = [ios91New emo_emojiCount];
-    NSArray *emojiRanges = [ios91New emo_emojiRanges];
+    // Output: ["true"]
+```
+
+#### EmojiCount
+
+Calculate number of emojis on the string.
+
+```objc
+#import "NSString+EMOEmoji.h"
+
+...
+
+    NSString *emojis = @"🤐🤑🤒🤓🤔";
+    NSInteger emojiCount = [emojis emo_emojiCount];
+    NSLog(@"%@", @(emojiCount));
+
+    // Output: ["5"]
+```
+
+#### EmojiRanges
+
+Calculate the NSRange for every emoji on the string.
+
+```objc
+#import "NSString+EMOEmoji.h"
+
+...
+
+    NSString *emojis = @"🤐emoji🤑test🤒";
+    NSArray *emojiRanges = [emojis emo_emojiRanges];
+    NSLog(@"%@", emojiRanges);
     
+    // Output: ["(
+        	 "NSRange: {0, 2}",
+        	 "NSRange: {7, 2}",
+        	 "NSRange: {13, 2}"
+		 )"]
 ```
 
 ## License
