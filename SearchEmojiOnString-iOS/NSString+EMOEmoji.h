@@ -18,7 +18,7 @@
 @interface NSString (EMOEmoji)
 
  /**
- Calculate the NSRange for every emoji in the string.
+ Calculate the NSRange for every emoji on the string.
  
  @return array with the range for every emoji.
  */
@@ -32,7 +32,7 @@
 - (BOOL)emo_containsEmoji;
 
 /**
- Calculate number og emojis on the string.
+ Calculate number of emojis on the string.
  
  @return the total number of emojis.
  */
