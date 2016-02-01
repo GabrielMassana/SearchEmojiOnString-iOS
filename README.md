@@ -51,6 +51,8 @@ YES if the String contains emojis, NO otherwise.
 
 #### EmojiCount
 
+Calculate number of emojis on the string.
+
 ```objc
 #import "NSString+EMOEmoji.h"
 
@@ -64,6 +66,8 @@ YES if the String contains emojis, NO otherwise.
 ```
 
 #### EmojiRanges
+
+Calculate the NSRange for every emoji on the string.
 
 ```objc
 #import "NSString+EMOEmoji.h"
