@@ -79,10 +79,10 @@ Calculate the NSRange for every emoji on the string.
     NSLog(@"%@", emojiRanges);
     
     // Output: ["(
-        	 "NSRange: {0, 2}",
-        	 "NSRange: {7, 2}",
-        	 "NSRange: {13, 2}"
-		 )"]
+    //    	 "NSRange: {0, 2}",
+    //    	 "NSRange: {7, 2}",
+    //    	 "NSRange: {13, 2}"
+    //		 )"]
 ```
 
 ## License
