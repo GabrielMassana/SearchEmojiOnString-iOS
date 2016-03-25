@@ -165,6 +165,10 @@
                  containsEmoji = YES;
              }
          }
+         
+         if (containsEmoji) {
+             *stop = YES;
+         }
      }];
     
     return containsEmoji;
