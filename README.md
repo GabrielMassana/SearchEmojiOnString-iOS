@@ -85,6 +85,27 @@ Calculate the NSRange for every emoji on the string.
     //		 )"]
 ```
 
+#### IsPureEmojiString
+
+Calculate if the string consists entirely of emojis.
+
+```objc
+#import "NSString+EMOEmoji.h"
+
+...
+    NSString *emojisText = @"🤐emoji🤑test🤒";
+    BOOL emojiText_isPureEmojiString = [emojisText emo_isPureEmojiString];
+    NSLog(@"%@", @(emojiText_isPureEmojiString));
+    
+    // Output: ["false"]
+        
+    NSString *emojis = @"🤐🤑🤒";
+    BOOL emoji_isPureEmojiString = [emojis emo_isPureEmojiString];
+    NSLog(@"%@", @(emoji_isPureEmojiString));
+
+    // Output: ["true"]
+ ```
+ 
 ## License
 
 SearchEmojiOnString-iOS is released under the MIT license. Please see the file called LICENSE.
