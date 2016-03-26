@@ -254,11 +254,13 @@
                  containsEmoji = YES;
              }
          }
+         
          if (!containsEmoji) {
              isPureEmojiString = NO;
              *stop = YES;
          }
      }];
+    
     return isPureEmojiString;
 }
 

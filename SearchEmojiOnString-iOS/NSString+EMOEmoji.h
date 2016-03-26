@@ -32,6 +32,13 @@
 - (BOOL)emo_containsEmoji;
 
 /**
+ Calculate if the string consists entirely of emoji.
+ 
+ @return YES if the string consists entirely of emoji, No otherwise.
+ */
+- (BOOL)emo_isPureEmojiString;
+
+/**
  Calculate number of emojis on the string.
  
  @return the total number of emojis.
