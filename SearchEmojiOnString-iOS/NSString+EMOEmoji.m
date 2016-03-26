@@ -166,7 +166,8 @@
              }
          }
          
-         if (containsEmoji) {
+         if (containsEmoji)
+         {
              *stop = YES;
          }
      }];
@@ -255,7 +256,8 @@
              }
          }
          
-         if (!containsEmoji) {
+         if (!containsEmoji)
+         {
              isPureEmojiString = NO;
              *stop = YES;
          }
