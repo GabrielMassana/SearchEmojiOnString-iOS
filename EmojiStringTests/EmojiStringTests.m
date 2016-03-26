@@ -135,8 +135,11 @@
 
 - (void)test_emo_isPureEmojiString_emoji
 {
-    NSString *text = [NSString stringWithFormat:@"%@%@", self.ios91, self.ios91New];
-    BOOL isPureEmojiString = [text emo_isPureEmojiString];
+    NSString *emoji = self.ios91;
+    if (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_8_4) {
+        emoji = [NSString stringWithFormat:@"%@%@", self.ios91, self.ios91New];
+    }
+    BOOL isPureEmojiString = [emoji emo_isPureEmojiString];
     
     XCTAssert(isPureEmojiString == YES, @"fail_test_emo_isPureEmojiString");
 }
