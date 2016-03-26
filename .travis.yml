@@ -1,4 +1,4 @@
 language: objective-c
    
 script: 
-   xctool -project EmojiString.xcodeproj -scheme EmojiString build -scheme EmojiStringTests test -sdk iphonesimulator
+   xctool -project EmojiString.xcodeproj -scheme EmojiStringTests test -sdk iphonesimulator
