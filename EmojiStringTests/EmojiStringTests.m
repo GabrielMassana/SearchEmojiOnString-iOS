@@ -131,4 +131,35 @@
     XCTAssert(ios91New == 19, @"fail_test_emo_emojiCount");
 }
 
+#pragma mark - PureEmojiString
+
+- (void)test_emo_isPureEmojiString_emoji
+{
+    BOOL isPureEmojiString = [self.ios91 emo_isPureEmojiString];
+    
+    XCTAssert(isPureEmojiString == YES, @"fail_test_emo_isPureEmojiString");
+}
+
+- (void)test_emo_isPureEmojiString_wired
+{
+    BOOL isPureEmojiString = [self.weird emo_isPureEmojiString];
+    
+    XCTAssert(isPureEmojiString == YES, @"fail_test_emo_isPureEmojiString");
+}
+
+- (void)test_emo_isPureEmojiString_abc
+{
+    BOOL isPureEmojiString = [self.abc emo_isPureEmojiString];
+    
+    XCTAssert(isPureEmojiString == NO, @"fail_test_emo_isPureEmojiString");
+}
+
+- (void)test_emo_isPureEmojiString_abc_emoji
+{
+    NSString *text = [NSString stringWithFormat:@"%@%@%@%@", self.abc, self.ios91, self.ios91New, self.weird];
+    BOOL isPureEmojiString = [text emo_isPureEmojiString];
+    
+    XCTAssert(isPureEmojiString == NO, @"fail_test_emo_isPureEmojiString");
+}
+
 @end
