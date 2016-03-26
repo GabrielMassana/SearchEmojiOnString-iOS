@@ -42,6 +42,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7A7AA2601C537EE10046BC16"
+               BuildableName = "EmojiStringTests.xctest"
+               BlueprintName = "EmojiStringTests"
+               ReferencedContainer = "container:EmojiString.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
