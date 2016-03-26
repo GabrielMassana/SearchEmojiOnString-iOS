@@ -39,6 +39,11 @@
     NSLog(@"emo_emojiRanges = %@",[abc emo_emojiRanges]);
     NSLog(@"emo_emojiRanges = %@",[weird emo_emojiRanges]);
     NSLog(@"emo_emojiRanges = %@",[ios91New emo_emojiRanges]);
+    
+    NSLog(@"emo_isPureEmojiString = %@",@([ios91 emo_isPureEmojiString]));
+    NSLog(@"emo_isPureEmojiString = %@",@([abc emo_isPureEmojiString]));
+    NSLog(@"emo_isPureEmojiString = %@",@([weird emo_isPureEmojiString]));
+    NSLog(@"emo_isPureEmojiString = %@",@([ios91New emo_isPureEmojiString]));
 }
 
 @end
