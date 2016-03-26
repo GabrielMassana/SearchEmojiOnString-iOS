@@ -135,13 +135,7 @@
 
 - (void)test_emo_isPureEmojiString_emoji
 {
-    NSString *emoji = self.ios91;
-    
-    if (NSClassFromString(@"UIStackView")) {
-        emoji = [NSString stringWithFormat:@"%@%@", self.ios91, self.ios91New];
-    }
-    
-    BOOL isPureEmojiString = [emoji emo_isPureEmojiString];
+    BOOL isPureEmojiString = [self.ios91 emo_isPureEmojiString];
     
     XCTAssert(isPureEmojiString == YES, @"fail_test_emo_isPureEmojiString");
 }
