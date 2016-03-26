@@ -85,7 +85,8 @@ Calculate the NSRange for every emoji on the string.
     //		 )"]
 ```
 
-#### IsPureEmojiString
+#### IsPureEmojiString 
+Thanks to [Jichao Wu](https://github.com/wujichao)
 
 Calculate if the string consists entirely of emojis.
 
