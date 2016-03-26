@@ -10,8 +10,6 @@
 
 #import "NSString+EMOEmoji.h"
 
-#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
-
 @interface EmojiStringTests : XCTestCase
 
 @property (nonatomic, strong) NSString *ios91;
@@ -139,7 +137,7 @@
 {
     NSString *emoji = self.ios91;
     
-    if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"9.0")) {
+    if (NSClassFromString(@"UIStackView")) {
         emoji = [NSString stringWithFormat:@"%@%@", self.ios91, self.ios91New];
     }
     
