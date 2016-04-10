@@ -10,7 +10,7 @@
 
 Category to search emojis on an NSString. 
 
-The category allows to check if has emojis, the number of emojis and the range of the emojis.
+Category to search emojis on an NSString. The category allows to check if has emojis, the number of emoji, the range of the emojis and if the string consists entirely of emojis.
 
 ## Installation
 
