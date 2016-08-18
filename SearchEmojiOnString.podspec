@@ -8,13 +8,14 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE.md'}
   s.author       = { "Gabriel Massana" => "gabrielmassana@gmail.com" }
 
-  s.platform     = :ios, "7.0"
-
   s.source       = { :git => "https://github.com/GabrielMassana/SearchEmojiOnString-iOS.git", :tag => s.version, :branch => "master"}
-  
+
   s.source_files  = "SearchEmojiOnString-iOS/**/*.{h,m}"
 
   s.requires_arc = true
+
+  s.ios.deployment_target = '7.0'
+  s.watchos.deployment_target = '2.0'
 
 end
 
