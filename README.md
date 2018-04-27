@@ -1,4 +1,4 @@
-# SearchEmojiOnString-iOS
+# SearchEmojiOnString
 
 [![Version](https://img.shields.io/cocoapods/v/SearchEmojiOnString.svg?style=flat-square)](http://cocoapods.org/pods/SearchEmojiOnString)
 [![License](https://img.shields.io/cocoapods/l/SearchEmojiOnString.svg?style=flat-square)](http://cocoapods.org/pods/SearchEmojiOnString)
